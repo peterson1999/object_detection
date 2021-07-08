@@ -20,7 +20,7 @@ class _StaticImageState extends State<StaticImage> {
   // this function loads the model
   loadTfModel() async {
     await Tflite.loadModel(
-      model: "assets/models/ssd_mobilenet.tflite",
+      model: "assets/models/model (1).tflite",
       labels: "assets/models/labels.txt",
     );
   }

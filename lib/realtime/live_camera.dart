@@ -21,7 +21,7 @@ class _LiveFeedState extends State<LiveFeed> {
   }
   loadTfModel() async {
     await Tflite.loadModel(
-      model: "assets/models/ssd_mobilenet.tflite",
+      model: "assets/models/model (1).tflite",
       labels: "assets/models/labels.txt",
     );
   }
